@@ -1,0 +1,50 @@
+<div class="main-body" >
+    <h1>Drive details</h1>
+
+    <div class="box" *ngIf="drive">
+        <div class="info">
+            <div class="title">Id</div>
+            <div>{{ drive.id }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Start Address</div>
+            <div>{{ drive.startAddress }}</div>
+        </div>
+        <div class="info"> 
+            <div class="title">End Address</div>
+            <div>{{ drive.endAddress }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Price</div>
+            <div>{{ drive.price }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Date</div>
+            <div>{{ drive.date }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Phone</div>
+            <div>{{ drive.phone }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Paying Method</div>
+            <div>{{ drive.payingMethod }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Price</div>
+            <div>{{ drive.price }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Card Number</div>
+            <div>{{ drive.cardNumber }}</div>
+        </div>
+        <div class="info">
+            <div class="title">Expiry Date</div>
+            <div>{{ drive.expiryDate }}</div>
+        </div>
+    </div>
+
+    <div class="back-button">
+        <button mat-raised-button type="button" (click)="onBack()">Back</button>
+    </div>
+</div>

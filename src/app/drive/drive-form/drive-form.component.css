@@ -1,0 +1,42 @@
+.main-body {
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+mat-form-field {
+    width: 50%;
+}
+
+
+
+mat-form-field.price{ 
+    padding-right: 5px;
+
+}
+
+mat-form-field.hours, mat-form-field.minutes {
+    width: 25%;
+}
+
+button[type="submit"] {
+    margin-left: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    align-self: flex-start;
+}
+
+.right {
+    margin-left: auto;
+}
